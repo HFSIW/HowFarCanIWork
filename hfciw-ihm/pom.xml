@@ -27,6 +27,10 @@
 			<groupId>nothing.serious</groupId>
 			<artifactId>hfciw-common</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>nothing.serious</groupId>
+			<artifactId>hfciw-services</artifactId>
+		</dependency>
 		
 		<!-- Unit Tests Dependencies -->
 		<dependency>
