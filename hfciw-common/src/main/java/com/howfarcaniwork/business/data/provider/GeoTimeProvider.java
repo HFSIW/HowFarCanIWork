@@ -12,6 +12,6 @@ public interface GeoTimeProvider {
 
 	int getMaxListLength();
 
-	Map<GeoPoint, Long> getMatrixTime(List<GeoPoint> points);
+	Map<GeoPoint, Long> getMatrixTime(List<GeoPoint> points, TravelMode m);
 
 }
