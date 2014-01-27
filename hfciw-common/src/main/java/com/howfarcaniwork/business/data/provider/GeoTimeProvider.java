@@ -8,9 +8,7 @@ import com.howfarcaniwork.business.data.geopoint.GeoPoint;
 
 public interface GeoTimeProvider {
 
-	void setTravelMode(TravelMode m);
-
-	long getTravelTime(GeoPoint departure, GeoPoint arrival);
+	long getTravelTime(GeoPoint departure, GeoPoint arrival, TravelMode m);
 
 	int getMaxListLength();
 

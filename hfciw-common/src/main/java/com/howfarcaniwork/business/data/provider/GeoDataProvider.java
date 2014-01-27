@@ -36,18 +36,10 @@ public interface GeoDataProvider {
 	 * return the closest address
 	 * 
 	 * @param p
+	 * @param precision
+	 *            As an Geopoint could not match an exact address for any value Geo Services usualy tolerate an aproximation we will set this as a precision
 	 * @return a string or null if no result
 	 */
-	String getAddressFromPosition(GeoPoint p);
-
-	/**
-	 * As an Geopoint could not match an exact address for any value Geo Services usualy tolerate an aproximation we will set this as a precision
-	 * 
-	 * @author Sylvain
-	 * 
-	 * @param precision
-	 */
-	// FIXME This method is subject to change as we will discovers the many apis.
-	void setPrecision(int precision);
+	String getAddressFromPosition(GeoPoint p, int precision);
 
 }
