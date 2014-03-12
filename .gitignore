@@ -1,6 +1,8 @@
 .project
 .classpath
+.settings/*
 target/
+*/.settings/*
 hfciw-common/.settings/org.eclipse.core.resources.prefs
 hfciw-common/.settings/org.eclipse.jdt.core.prefs
 hfciw-ihm/.settings/org.eclipse.core.resources.prefs
