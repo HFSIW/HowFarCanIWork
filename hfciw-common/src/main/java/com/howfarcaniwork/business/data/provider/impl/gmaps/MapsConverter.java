@@ -1,4 +1,4 @@
-package com.howfarcaniwork.business.data.provider.impl;
+package com.howfarcaniwork.business.data.provider.impl.gmaps;
 
 import com.howfarcaniwork.business.data.geopoint.GeoPoint;
 

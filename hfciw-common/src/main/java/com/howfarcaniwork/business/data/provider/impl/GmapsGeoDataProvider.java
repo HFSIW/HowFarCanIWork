@@ -3,6 +3,7 @@ package com.howfarcaniwork.business.data.provider.impl;
 import com.howfarcaniwork.business.data.geopoint.GeoPoint;
 import com.howfarcaniwork.business.data.provider.GeoDataProvider;
 import com.howfarcaniwork.business.data.provider.impl.gmaps.GmapRequest;
+import com.howfarcaniwork.business.data.provider.impl.gmaps.MapsConverter;
 import com.howfarcaniwork.business.data.provider.impl.gmaps.GmapsParams.Output;
 
 public class GmapsGeoDataProvider implements GeoDataProvider {
